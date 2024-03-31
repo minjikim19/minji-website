@@ -1,18 +1,21 @@
-import * as React from 'react'
-import Layout from '../components/layout'
-import ProjectComponent from '../components/projects'
-import TechnologiesComponent from '../components/technologies'
+import * as React from "react";
+import Layout from "../components/layout";
+import Project from "../components/projects";
+import Technologies from "../components/technologies";
+import About from "../components/about";
+import Main from "../components/main";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Minji's Website">
-      <p>Testing</p>
-      <TechnologiesComponent></TechnologiesComponent>
-      <ProjectComponent></ProjectComponent>
+    <Layout>
+      <Main></Main>
+      <About></About>
+      <Technologies></Technologies>
+      <Project></Project>
     </Layout>
-  )
-}
+  );
+};
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Home Page</title>;
 
 export default IndexPage;

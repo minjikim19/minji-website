@@ -1,9 +1,7 @@
-import * as React from 'react'
+import * as React from "react";
 
-const TechnologiesComponent = () => {
-    return (
-        <h1>Technical Skills</h1>
-    )
-}
+const Technologies = () => {
+  return <h1>Technical Skills</h1>;
+};
 
-export default TechnologiesComponent
+export default Technologies;

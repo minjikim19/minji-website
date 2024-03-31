@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Navigation from "./navigation";
+import Footer from "./footer";
 
 interface Props {
   pageTitle?: any;
@@ -12,20 +13,6 @@ const Layout = ({ pageTitle, children }: Props) => {
     <>
       <Navigation />
       <div className="container mx-auto">
-        {/* <nav>
-      <ul>
-        <li>
-          <Link to="/">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/about">
-            About
-          </Link>
-        </li>
-      </ul>
-    </nav> */}
         <main>
           <h1 className="text-3xl font-bold underline">{pageTitle}</h1>
           {children}
@@ -34,6 +21,7 @@ const Layout = ({ pageTitle, children }: Props) => {
           <p>Footer</p>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

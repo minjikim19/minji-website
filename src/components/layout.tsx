@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import NavigationComponent from "./navigation";
+import Navigation from "./navigation";
 
 interface Props {
   pageTitle?: any;
@@ -10,7 +10,7 @@ interface Props {
 const Layout = ({ pageTitle, children }: Props) => {
   return (
     <>
-      <NavigationComponent />
+      <Navigation />
       <div className="container mx-auto">
         {/* <nav>
       <ul>

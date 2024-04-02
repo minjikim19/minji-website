@@ -6,12 +6,12 @@ const Main = () => {
     <div className="w-full max-w-screen-xl mx-auto p-6 md:py-12 flex h-screen">
       <div className="m-auto">
         <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          Hi!{" "}
+          Hi! I'm{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-            달디달고달디달고 달디단 김민쥐
+            Minji,
           </span>
           <br />
-          Full-stack Engineer.
+          Passionate Software Engineer.
         </h1>
         <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"></p>
       </div>

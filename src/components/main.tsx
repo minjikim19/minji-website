@@ -1,4 +1,5 @@
 import * as React from "react";
+import Minji from "../assets/Minji.jpg";
 
 const Main = () => {
   const img = require("../assets/Minji.jpg");
@@ -15,8 +16,8 @@ const Main = () => {
         </h1>
         <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"></p>
       </div>
-      <div>
-        <img className="h-auto max-w-lg rounded-lg" src={String(img)} />
+      <div className="m-auto">
+        <img className="h-auto max-w-lg rounded-lg" src={Minji} />
       </div>
     </div>
   );

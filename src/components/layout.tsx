@@ -17,9 +17,6 @@ const Layout = ({ pageTitle, children }: Props) => {
           <h1 className="text-3xl font-bold underline">{pageTitle}</h1>
           {children}
         </main>
-        <div>
-          <p>Footer</p>
-        </div>
       </div>
       <Footer />
     </>

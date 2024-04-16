@@ -4,7 +4,7 @@ import Project from "../components/projects";
 import Technologies from "../components/technologies";
 import About from "../components/about";
 import Main from "../components/main";
-import logo from "../assets/logo.png";
+import Contact from "../components/contact";
 
 const IndexPage = () => {
   return (
@@ -13,6 +13,7 @@ const IndexPage = () => {
       <About></About>
       <Technologies></Technologies>
       <Project></Project>
+      <Contact></Contact>
     </Layout>
   );
 };

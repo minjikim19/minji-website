@@ -1,13 +1,19 @@
 import * as React from "react";
 import logo from "../assets/logo.png";
 
+const pdfPath =
+  "https://docs.google.com/document/d/1ZywC6ce0v6CUcWWuoz-ONKjE7J3K7rrV/edit?usp=sharing&ouid=109689802663310353174&rtpof=true&sd=true";
+const handleOpen = () => {
+  window.open(pdfPath, "_blank");
+};
+
 const Navigation = () => {
   return (
     <div>
       <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="/"
+            href="/#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img src={logo} className="h-12" alt="" />
@@ -16,6 +22,7 @@ const Navigation = () => {
             <button
               type="button"
               className="text-blue-500 font-bold outline outline-blue-400 hover:bg-blue-400 hover:text-white focus:ring-4 rounded-lg text-sm px-4 py-2 text-center"
+              onClick={handleOpen}
             >
               Resume
             </button>
@@ -36,7 +43,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a
-                  href="#about"
+                  href="/#about"
                   className="block py-2 px-3 relative after:block after:h-[4px] after:bg-blue-300 after:scale-x-0 after:hover:scale-x-100 after:duration-300 after:origin-left"
                 >
                   About
@@ -44,7 +51,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/#projects"
                   className="block py-2 px-3 relative after:block after:h-[4px] after:bg-blue-300 after:scale-x-0 after:hover:scale-x-100 after:duration-300 after:origin-left"
                 >
                   Projects
@@ -52,7 +59,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/#contact"
                   className="block py-2 px-3 relative after:block after:h-[4px] after:bg-blue-300 after:scale-x-0 after:hover:scale-x-100 after:duration-300 after:origin-left"
                 >
                   Contact Me

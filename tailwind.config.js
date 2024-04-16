@@ -6,7 +6,11 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'half-highlight': 'linear-gradient(180deg, transparent 60%, rgb(191 219 254) 60%)'
+      }
+    },
   },
   plugins: [],
 };

@@ -9,7 +9,6 @@ import Motivlogo from "../assets/motivlogo.png";
 import Trivialogo from "../assets/trivialogo.png";
 
 const Project = () => {
-
   return (
     <div className="w-full max-w-screen-xl mx-auto p-6 md:py-12" id="projects">
       <div className="">

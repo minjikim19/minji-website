@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -32,6 +33,7 @@
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.1.1",
     "prettier": "3.2.5",
     "typescript": "^5.3.3"
   }

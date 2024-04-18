@@ -1,5 +1,9 @@
 import type { GatsbyConfig } from "gatsby";
 
+module.exports = {
+  pathPrefix: "/minji-website",
+};
+
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Minji Website`,

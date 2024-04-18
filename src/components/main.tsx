@@ -3,28 +3,27 @@ import Minji from "../assets/Minji.jpg";
 
 const Main = () => {
   return (
-    <div className="w-full max-w-screen-xl mx-auto p-6 md:py-12 flex h-screen">
+    <div className="w-full max-w-screen-xl mx-auto p-2 md:p-6 md:py-12 h-screen md:flex">
       <div className="m-auto">
-        <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+        <h1 className="mb-4 text-3xl font-extrabold text-gray-900  dark:text-white md:text-5xl lg:text-6xl">
           Hello!
           <br />
           I'm{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
             Minji,
           </span>
-          <br />
         </h1>
-        <h2 className="mb-4 font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-2xl">
+        <h2 className="mb-2 font-extrabold text-gray-900 dark:text-white text-l sm:mb-4 md:text-xl lg:text-2xl">
           A software engineer based in Toronto.
         </h2>
-        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse animation-name:fadeLeft animation-timing-function:ease-out animation-duration:200ms animation-delay:600ms animation-iteration-count:1 animation-fill-mode:backwards">
-          <ul className="flex flex-col md:space-x-8 md:flex-row">
+        <div className="mb-2 flex justify-center lg:justify-start">
+          <ul className="flex flex-row space-x-3 md:space-x-4">
             <li>
               <a
-                href="https://www.linkedin.com/in/minji-kim19/"
+                href="mailto:elliemjkim1@gmail.com"
                 target="_blank"
                 aria-label="Email"
-                className="block py-1.5 px-8 rounded-lg outline outline-black after:block after:h-[4px] after:bg-blue-300 after:scale-x-0 after:hover:scale-x-100 after:duration-300 after:origin-left"
+                className="relative flex h-[30px] w-[80px] rounded-lg items-center justify-center overflow-hidden bg-gray-800 text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-400 before:duration-500 before:ease-out hover:shadow-blue-300 hover:before:h-56 hover:before:w-56 md:h-[50px] md:w-[130px]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +31,7 @@ const Main = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6 inline-block align-middle"
+                  className="w-5 h-5 inline-block align-middle relative z-10 md:w-6 md:h-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -40,7 +39,9 @@ const Main = () => {
                     d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
                   />
                 </svg>
-                <p className="inline-block align-middle">Email</p>
+                <p className="inline-block align-middle relative z-10 text-sm sm:text-lg">
+                  Email
+                </p>
               </a>
             </li>
             <li>
@@ -48,10 +49,10 @@ const Main = () => {
                 href="https://www.linkedin.com/in/minji-kim19/"
                 target="_blank"
                 aria-label="LinkedIn"
-                className="block py-1.5 px-8 rounded-lg outline outline-black after:block after:h-[4px] after:bg-blue-300 after:scale-x-0 after:hover:scale-x-100 after:duration-300 after:origin-left"
+                className="relative flex h-[30px] w-[80px] rounded-lg items-center justify-center overflow-hidden bg-gray-800 text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-400 before:duration-500 before:ease-out hover:shadow-blue-300 hover:before:h-56 hover:before:w-56 md:h-[50px] md:w-[130px]"
               >
                 <svg
-                  className="w-6 h-6 text-gray-800 dark:text-white inline-block align-middle"
+                  className="w-5 h-5 inline-block align-middle relative z-10 md:w-6 md:h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -66,7 +67,9 @@ const Main = () => {
                   />
                   <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
                 </svg>
-                <p className="inline-block align-middle">LinkedIn</p>
+                <p className="inline-block align-middle relative z-10 text-sm sm:text-lg">
+                  LinkedIn
+                </p>
               </a>
             </li>
             <li>
@@ -74,10 +77,10 @@ const Main = () => {
                 href="https://github.com/minjikim19"
                 target="_blank"
                 aria-label="Github"
-                className="block py-1.5 px-8 rounded-lg outline outline-black after:block after:h-[4px] after:bg-blue-300 after:scale-x-0 after:hover:scale-x-100 after:duration-300 after:origin-left"
+                className="relative flex h-[30px] w-[80px] rounded-lg items-center justify-center overflow-hidden bg-gray-800 text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-400 before:duration-500 before:ease-out hover:shadow-blue-300 hover:before:h-56 hover:before:w-56 md:h-[50px] md:w-[130px]"
               >
                 <svg
-                  className="w-6 h-6 text-gray-800 dark:text-white inline-block align-middle"
+                  className="w-5 h-5 inline-block align-middle relative z-10 md:w-6 md:h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -92,14 +95,19 @@ const Main = () => {
                   />
                 </svg>
 
-                <p className="inline-block align-middle">GitHub</p>
+                <p className="inline-block align-middle relative z-10 text-sm sm:text-lg">
+                  GitHub
+                </p>
               </a>
             </li>
           </ul>
         </div>
       </div>
       <div className="m-auto">
-        <img className="h-auto max-w-lg rounded-lg" src={Minji} />
+        <img
+          className="w-[100vw] rounded-lg md:w-[40vw] xl:w-[30vw]"
+          src={Minji}
+        />
       </div>
     </div>
   );

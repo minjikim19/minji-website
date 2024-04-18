@@ -10,10 +10,10 @@ const handleOpen = () => {
 const Navigation = () => {
   return (
     <div>
-      <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 shadow">
+      <nav className="bg-white dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 shadow md:fixed">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="/#"
+            href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img src={logo} className="h-12" alt="" />
@@ -43,7 +43,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a
-                  href="/#about"
+                  href="#about"
                   className="block py-2 px-3 relative after:block after:h-[4px] after:bg-blue-300 after:scale-x-0 after:hover:scale-x-100 after:duration-300 after:origin-left"
                 >
                   About
@@ -51,7 +51,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a
-                  href="/#projects"
+                  href="#projects"
                   className="block py-2 px-3 relative after:block after:h-[4px] after:bg-blue-300 after:scale-x-0 after:hover:scale-x-100 after:duration-300 after:origin-left"
                 >
                   Projects
@@ -59,7 +59,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a
-                  href="/#contact"
+                  href="#contact"
                   className="block py-2 px-3 relative after:block after:h-[4px] after:bg-blue-300 after:scale-x-0 after:hover:scale-x-100 after:duration-300 after:origin-left"
                 >
                   Contact Me

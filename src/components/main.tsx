@@ -1,19 +1,20 @@
 import * as React from "react";
 import Minji from "../assets/Minji.jpg";
 
+
 const Main = () => {
   return (
-    <div className="w-full max-w-screen-xl mx-auto p-2 md:p-6 md:py-12 h-screen md:flex">
-      <div className="m-auto">
-        <h1 className="mb-4 text-3xl font-extrabold text-gray-900  dark:text-white md:text-5xl lg:text-6xl">
+    <div className="w-full max-w-screen-xl mx-auto flex flex-col p-2 md:p-6 md:py-12 h-screen md:flex-row">
+      <div className="mt-20 items-end md:m-auto">
+        <h1 className="mb-4 text-3xl font-extrabold text-gray-900 md:text-5xl lg:text-6xl">
           Hello!
           <br />
           I'm{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-            Minji,
+            Minji Kim,
           </span>
         </h1>
-        <h2 className="mb-2 font-extrabold text-gray-900 dark:text-white text-l sm:mb-4 md:text-xl lg:text-2xl">
+        <h2 className="mb-2 font-extrabold text-gray-900 text-l sm:mb-4 md:text-xl lg:text-2xl">
           A software engineer based in Toronto.
         </h2>
         <div className="mb-2 flex justify-center lg:justify-start">
@@ -23,7 +24,7 @@ const Main = () => {
                 href="mailto:elliemjkim1@gmail.com"
                 target="_blank"
                 aria-label="Email"
-                className="relative flex h-[30px] w-[80px] rounded-lg items-center justify-center overflow-hidden bg-gray-800 text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-400 before:duration-500 before:ease-out hover:shadow-blue-300 hover:before:h-56 hover:before:w-56 md:h-[50px] md:w-[130px]"
+                className="relative flex h-[30px] w-[80px] rounded-lg items-center justify-center overflow-hidden bg-gray-800 text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-400 before:duration-500 before:ease-out hover:shadow-blue-300 hover:before:h-56 hover:before:w-56 md:h-[50px] md:w-[120px]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +50,7 @@ const Main = () => {
                 href="https://www.linkedin.com/in/minji-kim19/"
                 target="_blank"
                 aria-label="LinkedIn"
-                className="relative flex h-[30px] w-[80px] rounded-lg items-center justify-center overflow-hidden bg-gray-800 text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-400 before:duration-500 before:ease-out hover:shadow-blue-300 hover:before:h-56 hover:before:w-56 md:h-[50px] md:w-[130px]"
+                className="relative flex h-[30px] w-[80px] rounded-lg items-center justify-center overflow-hidden bg-gray-800 text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-400 before:duration-500 before:ease-out hover:shadow-blue-300 hover:before:h-56 hover:before:w-56 md:h-[50px] md:w-[120px]"
               >
                 <svg
                   className="w-5 h-5 inline-block align-middle relative z-10 md:w-6 md:h-6"
@@ -77,7 +78,7 @@ const Main = () => {
                 href="https://github.com/minjikim19"
                 target="_blank"
                 aria-label="Github"
-                className="relative flex h-[30px] w-[80px] rounded-lg items-center justify-center overflow-hidden bg-gray-800 text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-400 before:duration-500 before:ease-out hover:shadow-blue-300 hover:before:h-56 hover:before:w-56 md:h-[50px] md:w-[130px]"
+                className="relative flex h-[30px] w-[80px] rounded-lg items-center justify-center overflow-hidden bg-gray-800 text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-400 before:duration-500 before:ease-out hover:shadow-blue-300 hover:before:h-56 hover:before:w-56 md:h-[50px] md:w-[120px]"
               >
                 <svg
                   className="w-5 h-5 inline-block align-middle relative z-10 md:w-6 md:h-6"

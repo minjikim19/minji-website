@@ -1,7 +1,7 @@
 import type { GatsbyConfig } from "gatsby";
 
 module.exports = {
-  pathPrefix: "/minji-website",
+  pathPrefix: "",
 };
 
 const config: GatsbyConfig = {

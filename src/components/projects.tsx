@@ -12,7 +12,9 @@ const Project = () => {
   return (
     <div className="w-full max-w-screen-xl mx-auto p-6 md:py-12" id="projects">
       <div className="">
-        <h1 className="text-4xl font-extrabold text-gray-900">Projects</h1>
+        <h1 className="mb-4 text-3xl font-extrabold text-gray-900 md:text-4xl">
+          Projects
+        </h1>
         <div
           className="pt-10"
           id="accordion-flush"
@@ -55,14 +57,14 @@ const Project = () => {
             className="hidden"
             aria-labelledby="accordion-flush-heading-1"
           >
-            <div className="py-5 border-b border-gray-200 dark:border-gray-700 flex flex-row items-center">
+            <div className="py-5 border-b border-gray-200 dark:border-gray-700 flex flex-col items-center md:flex-row">
               <div className="basis-1/2 mr-4 ml-4">
-                <p className="my-10">
+                <p className="my-10 text-lg">
                   Motiv Optimize is a web application that offers advanced web
                   testing management to help marketing teams optimize user
                   impressions and improve web design efficiency.
                 </p>
-                <div className="flex flex-row">
+                <div className="flex flex-wrap mb-4">
                   <span className="relative">
                     <span className="mr-4 relative bg-half-highlight hover:bg-blue-200 transition-all duration-300">
                       Typescript
@@ -83,8 +85,6 @@ const Project = () => {
                       Vercel
                     </span>
                   </span>
-                </div>
-                <div className="my-2 mb-7 flex flex-row">
                   <span className="relative">
                     <span className="mr-4 relative bg-half-highlight hover:bg-blue-200 transition-all duration-300">
                       Amazon RDS
@@ -173,14 +173,14 @@ const Project = () => {
             className="hidden"
             aria-labelledby="accordion-flush-heading-2"
           >
-            <div className="py-5 border-b border-gray-200 dark:border-gray-700 flex flex-row items-center">
+            <div className="py-5 border-b border-gray-200 dark:border-gray-700 flex flex-col items-center md:flex-row">
               <div className="basis-1/2 mr-4 ml-4">
-                <p className="my-10">
+                <p className="my-10 text-lg">
                   Endless Trivia is a fully online trivia game that allows you
                   to play with friends and family without being in close contact
                   with them.
                 </p>
-                <div className="flex flex-row">
+                <div className="flex flex-wrap mb-4">
                   <span className="relative">
                     <span className="mr-4 relative bg-half-highlight hover:bg-blue-200 transition-all duration-300">
                       Javascript
@@ -201,8 +201,6 @@ const Project = () => {
                       Node JS
                     </span>
                   </span>
-                </div>
-                <div className="my-2 mb-7 flex flex-row">
                   <span className="relative">
                     <span className="mr-4 relative bg-half-highlight hover:bg-blue-200 transition-all duration-300">
                       Firebase
@@ -220,9 +218,9 @@ const Project = () => {
                   </span>
                 </div>
               </div>
-              <div className="basis-1/2 ml-14">
+              <div className="basis-1/2 flex justify-center md:ml-14">
                 <img
-                  className="h-auto w-11/12 object-fill m:w-6/7 rounded-lg justify-self-center hover:shadow-2xl transition-all duration-300"
+                  className="h-auto w-full object-fill md:w-6/7 rounded-lg justify-self-center hover:shadow-2xl transition-all duration-300"
                   src={Trivia}
                 />
               </div>
@@ -263,16 +261,16 @@ const Project = () => {
             className="hidden"
             aria-labelledby="accordion-flush-heading-3"
           >
-            <div className="py-5 border-b border-gray-200 dark:border-gray-700 flex flex-row items-center">
+            <div className="py-5 border-b border-gray-200 dark:border-gray-700 flex flex-col items-center md:flex-row">
               <div className="basis-1/2 mr-4 ml-4">
-                <p className="my-10">
+                <p className="my-10 text-lg">
                   YourYYC tourist information kiosk is designed to help users
                   make the most of their trip by providing information about
                   local events, attractions, and restaurants, as well as helping
                   them save their selected spots to their personal device to
                   plan their trip.{" "}
                 </p>
-                <div className="my-2 mb-7 flex flex-row">
+                <div className="my-2 mb-7 flex flex-wrap">
                   <span className="relative">
                     <span className="mr-4 relative bg-half-highlight hover:bg-blue-200 transition-all duration-300">
                       C#

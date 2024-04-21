@@ -1,4 +1,5 @@
 import * as React from "react";
+import { HelmetProvider } from "react-helmet-async";
 import Layout from "../components/layout";
 import Project from "../components/projects";
 import Technologies from "../components/technologies";
@@ -8,20 +9,16 @@ import Contact from "../components/contact";
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <Main></Main>
-      <About></About>
-      <Technologies></Technologies>
-      <Project></Project>
-      <Contact></Contact>
-    </Layout>
+    <HelmetProvider>
+      <Layout>
+        <Main></Main>
+        <About></About>
+        <Technologies></Technologies>
+        <Project></Project>
+        <Contact></Contact>
+      </Layout>
+    </HelmetProvider>
   );
-};
-
-export const Head = () => {
-  <>
-    <title>Home Page</title>
-  </>;
 };
 
 export default IndexPage;

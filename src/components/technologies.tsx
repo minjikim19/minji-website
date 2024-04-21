@@ -34,7 +34,7 @@ chart.js */}
           </div>
           <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
             <img className="w-6" src={Javascript} />
-            <p className="text-lg ml-2">Javascript</p>
+            <p className="text-lg ml-2">Typescript</p>
           </div>
           <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
             <img className="w-6" src={Javascript} />

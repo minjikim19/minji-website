@@ -1,13 +1,14 @@
 import type { GatsbyConfig } from "gatsby";
 
 module.exports = {
-  pathPrefix: "",
+  pathPrefix: "/minji-website",
 };
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Minji Website`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Minji's Website`,
+    image: `logo.png`,
+    siteUrl: `https://minjikim19.github.io/minji-website/`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin

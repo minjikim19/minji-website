@@ -54,7 +54,7 @@ const Project = () => {
           </h2>
           <div
             id="accordion-flush-body-1"
-            className="hidden"
+            className=""
             aria-labelledby="accordion-flush-heading-1"
           >
             <div className="py-5 border-b border-gray-200 dark:border-gray-700 flex flex-col items-center md:flex-row">

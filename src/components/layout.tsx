@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Helmet } from "react-helmet-async";
-import { Link } from "gatsby";
 import Navigation from "./navigation";
 import Footer from "./footer";
-import Logo from "../../favicon-32x32.png";
+import favicon16x16 from "../assets/favicon-16x16.png";
+import favicon32x32 from "../assets/favicon-32x32.png";
 
 interface Props {
   pageTitle?: any;
@@ -11,11 +11,14 @@ interface Props {
 }
 
 const Layout = ({ pageTitle, children }: Props) => {
+  const faviconLinks = [
+    { rel: "icon", type: "image/png", sizes: "16x16", href: favicon16x16 },
+    { rel: "icon", type: "image/png", sizes: "32x32", href: favicon32x32 },
+  ];
   return (
     <>
-      <Helmet>
+      <Helmet link={faviconLinks}>
         <title>Minji's Website</title>
-        {/* <meta name="icon" href={Logo} /> */}
       </Helmet>
       <Navigation />
       <div className="container mx-auto">

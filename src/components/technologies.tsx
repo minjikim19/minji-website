@@ -1,5 +1,15 @@
 import * as React from "react";
 import Javascript from "../assets/javascript.svg";
+import Typescript from "../assets/Typescript.svg";
+import ReactLogo from "../assets/React.svg";
+import Next from "../assets/nextjs.svg";
+import D3 from "../assets/d3.svg";
+import Chart from "../assets/chartjs.svg";
+import Docker from "../assets/docker.svg";
+import GraphQL from "../assets/GraphQL.svg";
+import Python from "../assets/Python.svg";
+import Java from "../assets/java.svg";
+import Cpp from "../assets/c++.svg";
 
 const Technologies = () => {
   return (
@@ -13,52 +23,45 @@ const Technologies = () => {
             <img className="w-6" src={Javascript} />
             <p className="text-lg ml-2">Javascript</p>
           </div>
-          {/* javascript
-typescript
-react.js
-next.js
-html
-css
-docker
-graphql
-python
-java
-c++
-shell
-SQL
-d3.js
-chart.js */}
           <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
-            <img className="w-6" src={Javascript} />
-            <p className="text-lg ml-2">Javascript</p>
-          </div>
-          <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
-            <img className="w-6" src={Javascript} />
+            <img className="w-6" src={Typescript} />
             <p className="text-lg ml-2">Typescript</p>
           </div>
           <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
-            <img className="w-6" src={Javascript} />
-            <p className="text-lg ml-2">Javascript</p>
+            <img className="w-6" src={ReactLogo} />
+            <p className="text-lg ml-2">React.js</p>
           </div>
           <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
-            <img className="w-6" src={Javascript} />
-            <p className="text-lg ml-2">Javascript</p>
+            <img className="w-6" src={Next} />
+            <p className="text-lg ml-2">Next.js</p>
           </div>
           <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
-            <img className="w-6" src={Javascript} />
-            <p className="text-lg ml-2">Javascript</p>
+            <img className="w-6" src={D3} />
+            <p className="text-lg ml-2">D3.js</p>
           </div>
           <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
-            <img className="w-6" src={Javascript} />
-            <p className="text-lg ml-2">Javascript</p>
+            <img className="w-6" src={Chart} />
+            <p className="text-lg ml-2">Chart.js</p>
           </div>
           <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
-            <img className="w-6" src={Javascript} />
-            <p className="text-lg ml-2">Javascript</p>
+            <img className="w-6" src={Docker} />
+            <p className="text-lg ml-2">Docker</p>
           </div>
           <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
-            <img className="w-6" src={Javascript} />
-            <p className="text-lg ml-2">Javascript</p>
+            <img className="w-6" src={GraphQL} />
+            <p className="text-lg ml-2">GraphQL</p>
+          </div>
+          <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
+            <img className="w-6" src={Python} />
+            <p className="text-lg ml-2">Python</p>
+          </div>
+          <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
+            <img className="w-6" src={Java} />
+            <p className="text-lg ml-2">Java</p>
+          </div>
+          <div className="flex items-center justify-center outline rounded-lg w-36 h-10">
+            <img className="w-6" src={Cpp} />
+            <p className="text-lg ml-2">C++</p>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Navigation = () => {
   };
 
   const pdfPath =
-    "https://docs.google.com/document/d/1ZywC6ce0v6CUcWWuoz-ONKjE7J3K7rrV/edit?usp=sharing&ouid=109689802663310353174&rtpof=true&sd=true";
+    "https://docs.google.com/document/d/12bbdvrhqOOigYMyawyt522LCqM8lmUzG5MehkuxENME/edit?usp=sharing";
   const handleOpen = () => {
     window.open(pdfPath, "_blank");
   };

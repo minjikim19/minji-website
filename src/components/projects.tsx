@@ -131,7 +131,7 @@ const Project = () => {
                   className=""
                 >
                   <img
-                    className="h-auto w-11/12 m:w-6/7 rounded-lg justify-self-center hover:shadow-2xl hover:h-full transition-all duration-300"
+                    className="h-auto w-11/12 m:w-6/7 rounded-lg justify-self-center hover:shadow-2xl hover:scale-105 duration-300 transition-all"
                     src={Motiv}
                   />
                 </a>
@@ -143,7 +143,7 @@ const Project = () => {
               type="button"
               className="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
               data-accordion-target="#accordion-flush-body-2"
-              aria-expanded="false"
+              aria-expanded="true"
               aria-controls="accordion-flush-body-2"
             >
               <div className="pl-2 flex flex-row">
@@ -220,7 +220,7 @@ const Project = () => {
               </div>
               <div className="basis-1/2 flex justify-center md:ml-14">
                 <img
-                  className="h-auto w-full object-fill md:w-6/7 rounded-lg justify-self-center hover:shadow-2xl transition-all duration-300"
+                  className="h-auto w-full object-fill md:w-6/7 rounded-lg justify-self-center hover:shadow-2xl hover:scale-105 duration-300 transition-all"
                   src={Trivia}
                 />
               </div>
@@ -231,7 +231,7 @@ const Project = () => {
               type="button"
               className="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
               data-accordion-target="#accordion-flush-body-3"
-              aria-expanded="false"
+              aria-expanded="true"
               aria-controls="accordion-flush-body-3"
             >
               <div className="pl-2 flex flex-row">
@@ -315,7 +315,7 @@ const Project = () => {
                   className=""
                 >
                   <img
-                    className="h-auto w-11/12 m:w-6/7 rounded-lg justify-self-center hover:shadow-2xl hover:h-full transition-all duration-300"
+                    className="h-auto w-11/12 m:w-6/7 rounded-lg justify-self-center hover:shadow-2xl hover:scale-105 duration-300 transition-all"
                     src={Youryyc}
                   />
                 </a>

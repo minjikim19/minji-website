@@ -5,10 +5,7 @@ import computer from "../assets/computer.png";
 
 const About = () => {
   return (
-    <div
-      className="w-full max-w-screen-xl mx-auto p-6 md:py-12"
-      id="about"
-    >
+    <div className="w-full max-w-screen-xl mx-auto p-6 md:py-12" id="about">
       <div className="m-auto">
         <h1 className="mb-4 text-3xl font-extrabold text-gray-900 md:text-4xl">
           I am...
@@ -46,6 +43,17 @@ const About = () => {
             Committee. I played a critical role in the installation of the
             Korean War Gapyeong Battle Victory Monument in the City of Airdrie.
           </p>
+        </div>
+        <div className="pt-10 flex justify-center ">
+          <div className="border-16 border-blue-200 w-5/6 aspect-w-16 aspect-h-7">
+            <iframe
+              src="https://www.youtube.com/embed/X7FQ1OdH144"
+              title="고등학생 때 나 홀로 캐나다에 온 이유 | 캘거리대학교 4학년, 봉사 활동만 네 가지"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>

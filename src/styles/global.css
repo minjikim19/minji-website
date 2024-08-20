@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-carousel-btn.bg-blue-300 {
+  background-color: rgb(219 234 254) !important; /* Tailwind's blue-300 color */
+}
+.custom-carousel-btn.bg-blue-100 {
+  background-color: rgb(147 197 253) !important; /* Tailwind's blue-200 color */
+}

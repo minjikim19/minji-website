@@ -38,14 +38,14 @@ const About = () => {
         <div className="pt-10 flex flex-col items-center md:flex-row">
           <img className="h-[6rem] rounded-lg md:h-[8rem]" src={team} />
           <p className="pl-4 text-md font-normal text-gray-800 md:text-lg lg:text-xl">
-            I possess strong leadership skills.
-            <br /> I led the Calgary Korean School's volunteering group for{" "}
+            I have:
+            <br /> - Led the Calgary Korean School's volunteering group for{" "}
             <strong>6 years</strong>.
-            <br /> I served as the HR leader for DWNN, a Calgary Korean
+            <br /> - Served as the HR leader for DWNN, a Calgary Korean
             volunteering group, for <strong>5 years</strong>.
-            <br /> I was the General Affairs Director of the Calgary Korean
-            Association for <strong>2 years</strong>.
-            <br /> I have been actively contributing to the community as a board
+            <br /> - Served as the General Affairs Director of the Calgary
+            Korean Association for <strong>2 years</strong>.
+            <br /> - Been actively contributing to the community as a board
             member of the Calgary Korean War Commemorative Committee for{" "}
             <strong>4 years</strong>. I played a crucial role in the
             installation of the Korean War Gapyeong Battle Victory Monument in
@@ -57,6 +57,7 @@ const About = () => {
             This video is about how I came to Canada, started a new life, and my
             experiences with volunteering!
           </p>
+          <span className="w-full"></span>
           <div className="border-16 border-blue-200 w-4/6 aspect-w-16 aspect-h-7">
             <iframe
               src="https://www.youtube.com/embed/X7FQ1OdH144"
